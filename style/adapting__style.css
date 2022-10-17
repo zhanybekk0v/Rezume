@@ -16,6 +16,9 @@
 .footer__btn {
     margin-left: 500px;
 }
+.search__form-field2{
+  display: none;
+}
 }
 
 
@@ -191,6 +194,15 @@ margin-right: 0;
 @media all and (max-width:320px) {
   .header {
        margin-bottom: 60px;
+}
+.header__title {
+  flex-wrap: wrap;
+}
+
+.header__top-desc2{
+    width: 34%;
+    flex-wrap: wrap;
+    margin-top: 15px;
 }
 .mobile__img-pic{
   display: block;
